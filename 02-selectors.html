@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selectors</title>
+    <style>
+        input[type="text"]:focus{
+            background-color: blue;
+            color: white;
+        }
+        input[type="password"]{
+            background-color: lightblue;
+        }
+        input[type="submit"]{
+            background-color: lightgreen;
+        }
+        input[type="submit"]:hover{
+            background-color: red;
+            color: whitesmoke;
+            padding: 10px 20px;
+        }
+    </style>
+
+
+</head>
+<body>
+<form>
+    <label>enter your name
+    </label>
+    <input type="text"><br>
+    <label>Enter your password</label>
+    <input type="password"><br>
+    <button>submit</button>
+</form>
+</body>
+</html>

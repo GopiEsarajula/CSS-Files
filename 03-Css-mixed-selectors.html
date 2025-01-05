@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mixed-selectors</title>
+  <style>
+    li{
+      color: whitesmoke;
+      padding: 10px;
+      margin: 10px;
+      font-family: Calibri, sans-serif;
+      font-size: 20px;
+    }
+
+    ul #g{
+      background-color: blue;
+    }
+    ul #go{
+      background-color: gray;
+    }
+
+
+    ol li:first-child{
+      background-color: green;
+    }
+    ol li:last-child{
+      background-color: violet;
+    }
+    ol li:nth-child(3){
+      background-color: lightseagreen;
+    }
+    ol li:nth-child(2){
+      background-color: lightcoral;
+    }
+
+
+
+    ul #gop{
+      background-color: lightseagreen;
+    }
+    ul #gopi{
+      background-color: lightpink;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<ul>
+  <li id="g">html</li>
+  <li id="go">css</li>
+  <li id="gop">javascript</li>
+  <li id="gopi">jquery</li>
+
+</ul>
+<ol><li>html</li>
+  <li>css</li>
+  <li>javascript</li>
+   <li>jquery</li>
+
+  </ol>
+
+
+
+</body>
+</html>
